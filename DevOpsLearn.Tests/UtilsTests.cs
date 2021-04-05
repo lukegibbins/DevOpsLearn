@@ -1,12 +1,12 @@
 ﻿using DevOpsLearn.Utils;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace DevOpsLearn.Tests
 {
-    [TestClass]
-    public class UnitTest1
+    [TestFixture]
+    public class UtilsTests
     {
-        [TestMethod]
+        [Test]
         public void ShouldReturnCorrectValueFromCalculator_Addition()
         {
             int num1 = 5;
